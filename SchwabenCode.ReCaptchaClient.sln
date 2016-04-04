@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SchwabenCode.ReCaptchaClient", "src\SchwabenCode.ReCaptchaClient\SchwabenCode.ReCaptchaClient.xproj", "{57EB5C0A-2D6B-4138-A91E-0218341C32DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9C49E1FE-EE6E-43A0-B0E6-D0E20E408676}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SchwabenCode.ReCaptchaClient.ManualConsoleTest", "test\SchwabenCode.ReCaptchaClient.ManualConsoleTest\SchwabenCode.ReCaptchaClient.ManualConsoleTest.xproj", "{895BEE35-94D1-4A43-AD50-AA68636B0D09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{57EB5C0A-2D6B-4138-A91E-0218341C32DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57EB5C0A-2D6B-4138-A91E-0218341C32DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57EB5C0A-2D6B-4138-A91E-0218341C32DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895BEE35-94D1-4A43-AD50-AA68636B0D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895BEE35-94D1-4A43-AD50-AA68636B0D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895BEE35-94D1-4A43-AD50-AA68636B0D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895BEE35-94D1-4A43-AD50-AA68636B0D09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{57EB5C0A-2D6B-4138-A91E-0218341C32DC} = {14C915EA-FE0D-40AB-BDCE-9FF82BE4F2FA}
+		{895BEE35-94D1-4A43-AD50-AA68636B0D09} = {9C49E1FE-EE6E-43A0-B0E6-D0E20E408676}
 	EndGlobalSection
 EndGlobal
