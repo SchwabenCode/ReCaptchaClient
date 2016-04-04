@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14C915EA-FE0D-40AB-BDCE-9FF82BE4F2FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C72D6F9B-8EC0-46E7-A21B-331B19339DE6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SchwabenCode.ReCaptchaClient", "src\SchwabenCode.ReCaptchaClient\SchwabenCode.ReCaptchaClient.xproj", "{57EB5C0A-2D6B-4138-A91E-0218341C32DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57EB5C0A-2D6B-4138-A91E-0218341C32DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EB5C0A-2D6B-4138-A91E-0218341C32DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EB5C0A-2D6B-4138-A91E-0218341C32DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EB5C0A-2D6B-4138-A91E-0218341C32DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57EB5C0A-2D6B-4138-A91E-0218341C32DC} = {14C915EA-FE0D-40AB-BDCE-9FF82BE4F2FA}
+	EndGlobalSection
+EndGlobal
